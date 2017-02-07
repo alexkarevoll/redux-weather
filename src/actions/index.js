@@ -12,6 +12,6 @@ export function fetchWeather(city) {
 
   return {
     type: FETCH_WEATHER,
-    payload: request
+    payload: request // this promise is handeled by redux-promise middleware
   }
 }
